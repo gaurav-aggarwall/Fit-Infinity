@@ -78,7 +78,164 @@
 
     <div id="right-arrow" class="arrow"></div>
   </div>
+
+  <!-- Grid -->
   
+  <div id="grid">
+    <div class="grid-head">
+      <h1>Welcome To Fit Infinity!</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus inventore delectus officia atque debitis natus temporibus, blanditiis optio laboriosam officiis et non ad excepturi vitae sapiente provident fugiat explicabo placeat repellat? Molestiae natus asperiores quo, magni, sint quia itaque explicabo deserunt illo aut placeat beatae numquam minus, blanditiis quam?
+      </p>
+      <div class="container">
+        <hr/> 
+      </div>
+      <h4>OUR PROCESS</h4>
+    </div>
+    <div class="container">
+      <div class="row" id='process'>
+        <div class="col" align="center">
+          <i class="fas fa-weight fa-3x"></i>
+          <h5>Analyze Your Goal</h5>
+          <p>1st Step, is Goal Analysis</p>
+        </div>
+        <div class="col" align="center">
+          <i class="fas fa-dumbbell fa-3x"></i>
+          <h5>Work Hard On It</h5>
+          <p>Focus on Goal & Work Hard</p>
+        </div>
+        <div class="col" align="center">
+          <i class="fas fa-tachometer-alt fa-3x"></i>
+          <h5>Improve Your Performance</h5>
+          <p>Constant Practise is the Key.</p>
+        </div>
+        <div class="col" align="center">
+          <i class="fas fa-chart-line fa-3x"></i>
+          <h5>Achieve Your Destinity</h5>
+          <p>Yes, You did it.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="form">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="img/form-pic.png" alt="Form Picture">
+        </div>
+        <div class="col" id='register'>
+          <h2>Register For Free</h2>
+          <form>
+            <div class="row form-group">
+              <div class="col">
+                <label for="inputName1">First Name</label>
+                <input type="text" class="form-control" id="inputName1" placeholder="First Name">
+              </div>
+              <div class="col">
+                <label for="inputName2">Last Name</label>
+                <input type="text" class="form-control" id="inputName2" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input type="text" class="form-control" id="inputEmail" placeholder="Enter Your Email Id">
+            </div>
+            <div class="form-group">
+              <label for="inputContact">Contact</label>
+              <input type="text" class="form-control" id="inputContact" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form-group">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+            </div>
+            <button id='btn-form' type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bmi">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Calculate Your BMI</h3>
+          <form>
+            <div class="row form-group">
+              <div class="col">
+                <input id="height" type="number" class="form-control form-control-lg" placeholder="Enter Height in cm..">
+              </div>
+              <div class="col">
+                <input id="weight" type="number" class="form-control form-control-lg" placeholder="Enter Weight in Kgs..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                  <button id='bmi-btn' type="submit" class="btn btn-primary">Calculate BMI</button>
+              </div>
+              <div class="col">
+                  <button id='bmi-resetbtn' type="submit" class="btn btn-primary">Reset</button>
+              </div>
+            </div>
+          </form>
+          <div id="output">
+            <div class="card card-danger mt-5 mb-3">
+              <div class="card-block py-2 px-3">
+                <h4>Your BMI is: <span id='bmiOutput'></span></h4>
+              </div>
+            </div> 
+            <center><img src="img/bmi-chart.png" alt="BMI Chart"></center>
+          </div>   
+        </div>
+        <div class="col">
+          <img src="img/bmi-pic.png" alt="BMI">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="pt-4 bg-light">
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-sc mx-1">
+          <i class="fab fa-snapchat fa-3x"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-yt mx-1">
+          <i class="fab fa-youtube fa-3x"> </i>
+        </a>
+      </li>
+    </ul>
+
+    <div class="py-2 text-center"><i class="far fa-copyright"></i> 2018 Copyright :
+      <a href="index.html"> Fit Infinity </a>
+    </div>
+  </footer>
 
 <script src='Scripts/main.js'></script>
 </body>

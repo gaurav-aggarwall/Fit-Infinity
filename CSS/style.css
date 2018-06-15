@@ -99,3 +99,93 @@ body{
     right:0;
     margin-right: 30px;  
 }
+
+/* Grid */
+#grid{ padding-bottom: 30px;}
+
+.grid-head{
+    text-align: center;
+    padding-top: 65px;
+}
+
+.grid-head h1{
+    font-size: 40px;
+    padding-bottom: 30px; 
+}
+
+.grid-head p{
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 40px;
+    color:gray;
+    font-weight:450;
+}
+
+.grid-head h4{
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.col i{
+    color:lightsalmon;
+    margin-bottom:20px;
+}
+
+.col i:hover{
+    color:lightcoral;
+}
+#process p{
+    color: gray;
+}
+
+/* Form */
+#form{
+    padding-top:40px;
+    background-image: url("../img/form-bg.jpg");  
+    background-repeat:no-repeat;
+    background-size:cover;  
+    background-attachment: fixed;
+}
+
+#register{ padding-bottom: 14px;}
+
+#form h2{ padding-bottom: 20px;}
+
+/* BMI */
+#bmi{
+    padding-top: 50px;
+    background-image: url("../img/bmi-bg.png");
+    background-attachment: fixed;
+    background-position:top center; 
+}
+#bmi h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#bmiOutput{
+    font-size: large;
+}
+
+/* Footer */
+.fa-facebook:hover{
+    color:#3b5998;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color:#1DA1F2;
+    cursor: pointer;
+}
+.fa-google-plus:hover{
+    color:#DB4437;
+    cursor: pointer;
+}
+.fa-snapchat:hover{
+    color:#FFFC00;
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    color:#FF0000;
+    cursor: pointer;
+}
