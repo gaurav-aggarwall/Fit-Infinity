@@ -4,41 +4,6 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-/* Navbar */
-.navbar{
-    margin:0px;
-    padding:0px;
-    border:0px;
-}
-.navbar-brand{
-    height: 70px;
-    width: 70px;
-    font-size: 28px;
-    margin:0px;
-    margin-left: 30px;
-}
-.nav-item:first-child{font-size: 40px;}
-
-#route{
-    padding-top: 20px;
-    padding-left: 659px;
-    padding-right: 0px;
-    margin-right: 0px;
-}
-#route:hover {
-    padding-top: 20px;
-    font-weight:bold;
-    letter-spacing:1px;
-}
-#route-space{
-    padding-top: 20px;
-    padding-left: 10px;
-}
-.nav-item:last-child{
-    padding-top: 20px;
-    padding-left: 0px;
-}
-
 /* Gym Photos */
 #gym-photos{
     background-image: url("../img/map-bg.jpg");
@@ -136,25 +101,4 @@ body{
     margin-right: 40px;
 }
 
-/* Footer */
-.fa-facebook:hover{
-    color:#3b5998;
-    cursor: pointer;
-}
-.fa-twitter:hover{
-    color:#1DA1F2;
-    cursor: pointer;
-}
-.fa-google-plus:hover{
-    color:#DB4437;
-    cursor: pointer;
-}
-.fa-snapchat:hover{
-    color:#FFFC00;
-    cursor: pointer;
-}
-.fa-youtube:hover{
-    color:#FF0000;
-    cursor: pointer;
-}
     

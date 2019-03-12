@@ -4,32 +4,6 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-/* Navbar */
-.navbar{
-    margin:0px;
-    padding:0px;
-    border:0px;
-}
-.navbar-brand{
-    height: 80px;
-    width: 80px;
-    font-size: 28px;
-    margin:0px;
-    margin-left: 30px;
-    font-weight: bolder;
-}
-.nav-item{ 
-    margin-right: 50px;
-    padding-right:5px;
-
-}
-.nav-item:first-child{margin-left: 190px;}
-
-.nav-item :hover{
-    font-weight:bold;
-    letter-spacing:1px;
-}    
-
 /* Slider */
 .wrapper{position: relative;}
 
@@ -169,24 +143,3 @@ body{
     font-size: large;
 }
 
-/* Footer */
-.fa-facebook:hover{
-    color:#3b5998;
-    cursor: pointer;
-}
-.fa-twitter:hover{
-    color:#1DA1F2;
-    cursor: pointer;
-}
-.fa-google-plus:hover{
-    color:#DB4437;
-    cursor: pointer;
-}
-.fa-snapchat:hover{
-    color:#FFFC00;
-    cursor: pointer;
-}
-.fa-youtube:hover{
-    color:#FF0000;
-    cursor: pointer;
-}
